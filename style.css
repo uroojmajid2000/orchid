@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  padding: 1rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 2;
+  background-color: white;
+  width: 100%;
+}
+nav ul li {
+  display: inline;
+  padding: 0 0.7rem;
+  color: darkslategray;
+  font-weight: bold;
+}
+nav ul li:hover {
+  color: blue;
+  text-decoration: underline;
+  font-size: 1.2rem;
+  transition: all 0.5s ease-in-out;
+}
+.hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero img {
+  width: 100%;
+}
+.text {
+  position: absolute;
+  top: 0;
+  color: white;
+  margin: 5rem 0;
+  padding: 5rem 30rem 5rem 10rem;
+}
+.text h1,
+p {
+  margin-bottom: 1rem;
+}
+button {
+  padding: 1rem;
+  border-radius: 50px;
+  border: none;
+}
+article {
+  text-align: center;
+  padding: 2rem;
+}
+section {
+  padding: 2rem;
+}
+.lgd {
+  display: flex;
+  text-align: left;
+}
+.lgd div {
+  padding: 1rem 3rem 1rem 2rem;
+  display: flex;
+}
+.lgd div p {
+  padding-top: 1rem;
+}
+.star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-star {
+  color: blue;
+}
+.fa-star:nth-child(2) {
+  font-size: 2rem;
+}
+.hp {
+  flex-direction: column;
+  display: flex;
+}
+.bulb {
+  font-size: 5rem;
+}
+.btn {
+  background-color: lightgrey;
+  width: 10rem;
+  transition: all 2s ease-in-out;
+}
+.btn:hover {
+  background-color: blueviolet;
+  color: white;
+}
+.gallery .images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gallery .images img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+.img {
+  position: relative;
+  transition: all 0.5s ease;
+}
+.bd {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+  color: white;
+  opacity: 0.7;
+  display: none;
+  padding: 1rem;
+}
+.bd button {
+  border-radius: 2px;
+}
+.bd button i {
+  font-size: 1.5rem;
+}
+.bd h5 {
+  padding-top: 5rem;
+  align-self: start;
+}
+.bd h2 {
+  align-self: start;
+}
+.img:hover .bd {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.a {
+  display: none;
+}
+.count {
+    display: flex;
+    background-image: url(https://images.pexels.com/photos/36753/flower-purple-lical-blosso.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 5rem 2rem;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+.count .counter {
+    font-size: 3rem;
+    z-index: 2;
+}
+.count::after {
+    content: '';
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+
+.beautyful div{
+  margin: 1rem;
+}
+.beautyful p{
+  margin: 2rem;
+  font-style: italic;
+color: gray;
+}
+.team{
+display: inline;
+
+
+}
+.team .img {
+  position: relative;
+  transition: all 0.5s ease;
+}
+
+
+
+.img:hover .team {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+
+
+
+.teamview {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+  color: white;
+  opacity: 0.7;
+  display: none;
+  padding: 1rem;
+}
+footer{
+ display: flex;
+ justify-content: space-around;
+ background-color: rgb(61, 22, 83);
+ color: white;
+padding: 2rem 2rem 2rem 2rem;
+}
+footer .links ul{
+  padding: 1rem;
+  
+}
+
+}
+footer .links ul li{
+  padding: 0.5rem;
+  list-style: none;
+ 
